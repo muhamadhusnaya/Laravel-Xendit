@@ -1,0 +1,7 @@
+.img-card {
+    max-width: 160px;
+    max-height: auto;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
+}
