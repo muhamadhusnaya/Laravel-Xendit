@@ -18,7 +18,9 @@ class OrderController extends Controller
 
     public function index()
     {
-        return view('order');
+        return view('order', [
+            'order' => Order::latest()->get()
+        ]);
     }
 
     public function createInvoice(Request $request)
